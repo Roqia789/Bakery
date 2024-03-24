@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    min-height: 70vh;
+    background-image: url(../img/week2/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar li {
+    margin: 0 20px;
+    list-style: none;
+    display: inline-block;
+    /* position: relative; */
+}
+
+/* .navbar li::after{
+   content:'';
+   height: 3px;
+   width: 0;
+   background-color: #6e4912;
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   transition:0.5s;
+} 
+.navbar li:hover::after{
+   width:100%;
+}
+*/
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #755f3e;
+}
+
+
+/* .sidebar{
+    position: fixed;
+    top:0;
+   width: 100%;
+    padding: 0 40px;
+    justify-content:flex-end ;
+    align-items: center;
+    background-color: white;
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+} */
+/* *, ::after, ::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+} */
+
+/* .two ul li{
+    height: 60px;
+}
+
+.two a{   
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+} */
+/* ------------------------------------ */
+.content {
+    max-width: 45%;
+    margin: 0 auto;
+    padding-top: 5%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Alegreya Sans";
+}
+
+.content p {
+    margin: 25px;
+    font-size: 30px;
+}
+
+.content h1 {
+    font-size: 80px;
+    letter-spacing: 1px;
+}
+
+.click {
+    padding: 10px;
+    margin: 15px;
+}
+
+.click .butt1:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.click .butt1 {
+    color: aliceblue;
+    background-color: rgb(123, 118, 102);
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 20px;
+    margin: 15px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.click .butt2:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.click .butt2 {
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 20px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.section-one {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alexandru {
+    display: inline-block;
+    width: 47%;
+    vertical-align: middle;
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+
+.alexandru img {
+    width: 100%;
+}
+
+.info {
+    padding-left: 45px;
+    /* font-family: 'Open Sans', arial; */
+}
+
+.h2-p h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    opacity: 90%;
+}
+
+.h2-p p {
+    line-height: 1.5em;
+    font-size: 23px;
+    margin-right: 10px;
+    opacity: 70%;
+}
+
+.class-one img {
+    width: 46px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border-style:outset;
+}
+
+.class-one {
+    margin-top: 23px;
+    list-style: none;
+    line-height: 1.65em;
+    font-size: 24px;
+
+}
+
+.class-one span {
+    opacity: 70%;
+}
+
+.section-two {
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+}
+
+/* used the same container(class="section-one") */
+.section-2 {
+    display: inline-block;
+    width: 47%;
+    vertical-align: middle;
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+
+.section-2 img {
+    width: 100%;
+}
+
+.our-location h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 6%;
+
+}
+
+.our-location p {
+    font-size: 22px;
+    line-height: 1.86em;
+    opacity: 70%;
+    padding-right: 50px;
+}
+
+.our-location p {
+    font-size: 22px;
+    line-height: 1.86em;
+    margin-top: 0;
+}
+
+.clr-fix {
+    clear: both;
+}
+
+.section-three {
+    width: 100%;
+    margin-top: 39px;
+    margin-bottom: 39px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* used the same container(class="section-one") */
+.our-baking {
+    text-align: center;
+}
+
+.our-baking h3 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.our-baking p {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 70%;
+}
+
+.text h3 {
+    font-size: 37px;
+    font-weight: 400;
+    padding: 20px;
+    opacity: 85%;
+}
+
+.text p {
+    font-size: 20px;
+    line-height: 1.70em;
+    opacity: 70%;
+}
+
+
+.item {
+    float: left;
+    width: 30%;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.item img {
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+    margin: 40px;
+}
+
+.text p {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.section-four {
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+}
+.section-4 {
+    display: inline-block;
+    width: 47%;
+    vertical-align: middle;
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+
+.section-4 img {
+    width: 100%;
+}
+
+.contact p{
+ font-size: 30px;
+ line-height: 1.70em;
+}
+
+.details{
+    display: block;
+    margin-top: 50px;
+}
+.details p{
+    font-size: 30px;
+}
+.icons-map li{
+    margin-top: 23px;
+    list-style: none;
+    line-height: 1.85em;
+    font-size: 24px;
+}
+.icons-map span{
+    opacity: 70%;
+    padding-left: 20px;
+}
+.icons-map img {
+    width: 50px;
+    border-radius: 30px;
+    background-color: #755f3e;
+}
+
+/* .about{
+    background-color: #553f1e;
+    width: 100%;
+    
+}
+.contact-footer{  
+    width: 25%;
+    display: inline-block; 
+    text-align: center;
+    list-style: none;
+    margin: 20px;
+}
+.cont-one {
+   padding: 10px;
+    background-color: blue;
+   
+}
+.cont-two {
+   padding: 10px;
+    background-color: blue;
+   
+}
+.cont-three {
+   padding: 10px;
+    background-color: blue;
+   
+}
+.cont-four {
+   padding: 10px;
+    background-color: blue;
+   
+} */
